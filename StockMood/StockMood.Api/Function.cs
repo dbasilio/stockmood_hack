@@ -43,7 +43,7 @@ namespace StockMood.Api
             return tweets;
         }
 
-        public int GetPublicSentiment()
+        public APIGatewayProxyResponse GetPublicSentiment(ILambdaContext context)
         {
             var dynamoDbClient =
                 new AmazonDynamoDBClient(new BasicAWSCredentials("AKIAITP2P5WZV5HT4UYA",
@@ -52,13 +52,25 @@ namespace StockMood.Api
 
             var tweets = dbContext.ScanAsync<TweetDto>(new ScanCondition[] {}).GetRemainingAsync().Result;
             dbContext.Dispose();
-            
+            context.Logger.LogLine($"Number of tweets: {tweets.Count}");
             var count = tweets.Count;
-            if (count == 0)
-                return 0;
+            float positive = 0;
 
-            var positive = tweets.Count(x => x.PopularityScore > 0);
-            return positive / count * 100;
+            if (count > 0)
+            {
+                positive = tweets.Count(x => x.PopularityScore > 0);
+                context.Logger.LogLine($"Number of positive tweets: {positive}");
+            }
+            var response = new APIGatewayProxyResponse
+            {
+                Headers = new Dictionary<string, string>()
+            };
+
+            response.Headers["Access-Control-Allow-Origin"] = "*";
+
+            response.Body = "{publicSentiment : " + positive + "}";
+
+            return response;
         }
 
         public TweetDto GetMostTrending()

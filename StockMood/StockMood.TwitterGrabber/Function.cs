@@ -124,7 +124,7 @@ namespace StockMood.TwitterGrabber
                 }
                 tweet.Score = sentence.Sentiment.Score ?? 0;
                 tweet.Magnitude = sentence.Sentiment.Magnitude ?? 0;
-                tweet.PopularityScore = tweet.Magnitude*tweet.Score*(2*tweet.NumberOfRetweets + tweet.NumberOfLikes);
+                tweet.PopularityScore = tweet.Magnitude*tweet.Score*(2*tweet.NumberOfRetweets + tweet.NumberOfLikes + tweet.User.NumberOfFollowers);
             }
 
             var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
