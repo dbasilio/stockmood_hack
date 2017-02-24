@@ -34,11 +34,14 @@ namespace StockMood.Api
             var dbContext = new DynamoDBContext(dynamoDbClient);
 
             var tweets = dbContext.ScanAsync<TweetDto>(new ScanCondition[] {}).GetRemainingAsync().Result;
-            var count = tweets.Count;
-
-            //var positive = tweets.Where(x => x.)
+            dbContext.Dispose();
             
-            return 0;
+            var count = tweets.Count;
+            if (count == 0)
+                return 0;
+
+            var positive = tweets.Count(x => x.PopularityScore > 0);
+            return positive / count * 100;
         }
 
         public TweetDto GetMostTrending()
