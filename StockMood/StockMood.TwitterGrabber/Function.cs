@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 using Amazon.Lambda.Core;
 using Amazon.Lambda.Serialization;
+using StockMood.Models;
 using Tweetinvi;
 using Tweetinvi.Models;
 
@@ -28,13 +29,27 @@ namespace StockMood.TwitterGrabber
                 "835155580037775360-k78JNWd4QiH3JVAqgpzzEBFgNYsYfp8", "PMRySX5hG2eTzilbK9ZIrVWQjs8fVZzfqvkD8A1rc7emP");
             Auth.SetCredentials(creds);
 
-            Tweet.PublishTweet(DateTime.Now.ToString());
-
             var tweets = Search.SearchTweets("MSFT").Take(10);
 
+            var tweetDtoList = new List<TweetDto>();
             foreach (var tweet in tweets)
             {
-                context.Logger.LogLine(tweet.Text);
+                var tweetDto = new TweetDto
+                {
+                    Text = tweet.FullText,
+                    NumberOfRetweets = tweet.RetweetCount,
+                    NumberOfLikes = tweet.FavoriteCount,
+                    DateCreated = tweet.CreatedAt,
+                    User = new UserDto
+                    {
+                        ScreenName = tweet.TweetDTO.CreatedBy.ScreenName,
+                        EmailAddress = tweet.TweetDTO.CreatedBy.Email,
+                        UserName = tweet.TweetDTO.CreatedBy.Name,
+                        NumberOfFollowers = tweet.TweetDTO.CreatedBy.FollowersCount
+                    }
+                };
+                tweetDtoList.Add(tweetDto);
+                context.Logger.LogLine(tweetDto.ToString());
             }
             context.Logger.LogLine("finished running");
         }
