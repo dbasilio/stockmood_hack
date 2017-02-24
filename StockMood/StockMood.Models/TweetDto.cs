@@ -16,6 +16,7 @@ namespace StockMood.Models
         public string Permalink { get; set; }
         public float Score { get; set; }
         public float Magnitude { get; set; }
+        public float PopularityScore { get; set; }
 
         public override string ToString()
         {
