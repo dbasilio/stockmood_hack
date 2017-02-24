@@ -11,7 +11,6 @@ using Newtonsoft.Json;
 using StockMood.Models;
 using Tweetinvi;
 using Tweetinvi.Models;
-using Tweetinvi.Parameters;
 using Search = Tweetinvi.Search;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
@@ -124,6 +123,10 @@ namespace StockMood.TwitterGrabber
             var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
             batchWrite.AddPutItems(tweetDtoList);
             batchWrite.ExecuteAsync();
+
+            dbContext.Dispose();
+            dynamoDbClient.Dispose();
+
             context.Logger.LogLine("finished running");
         }
     }
