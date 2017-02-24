@@ -109,9 +109,15 @@ namespace StockMood.TwitterGrabber
                 context.Logger.LogLine($"{sentence.Text.Content}");
                 var tweetId = tweetIdRegex.Match(sentence.Text.Content).Value;
 
+                if (!tweetIdRegex.IsMatch(sentence.Text.Content))
+                {
+                    continue;
+                }
+
                 var tweet = tweetDtoList.Find(t => t.TweetId == tweetId);
                 tweet.Score = sentence.Sentiment.Score ?? 0;
                 tweet.Magnitude = sentence.Sentiment.Magnitude ?? 0;
+                tweet.PopularityScore = tweet.Magnitude*tweet.Score*(2*tweet.NumberOfRetweets + tweet.NumberOfLikes);
             }
 
             var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
