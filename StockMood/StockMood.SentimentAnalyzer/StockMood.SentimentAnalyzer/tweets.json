@@ -1,0 +1,2530 @@
+﻿{
+  "statuses": [
+    {
+      "created_at": "Fri Feb 24 16:35:52 +0000 2017",
+      "id": 835166364616773632,
+      "id_str": "835166364616773632",
+      "text": "Predict the behaviour of #MSFT. After 4,616,000 Shares have been sold by insiders in last one week TINO IQ #daytrading #stockmarket #pr",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              25,
+              30
+            ]
+          },
+          {
+            "text": "daytrading",
+            "indices": [
+              107,
+              118
+            ]
+          },
+          {
+            "text": "stockmarket",
+            "indices": [
+              119,
+              131
+            ]
+          },
+          {
+            "text": "pr",
+            "indices": [
+              132,
+              135
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://zapier.com/\" rel=\"nofollow\">Zapier.com</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4834240913,
+        "id_str": "4834240913",
+        "name": "Li Wei",
+        "screen_name": "liwei_tino",
+        "location": "San Jose, CA",
+        "description": "Director of Sales and Marketing TINO IQ",
+        "url": "https://t.co/DZ7Dh4JrPq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/DZ7Dh4JrPq",
+                "expanded_url": "http://www.tinoiq.com",
+                "display_url": "tinoiq.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 54,
+        "friends_count": 97,
+        "listed_count": 7,
+        "created_at": "Fri Jan 22 04:59:32 +0000 2016",
+        "favourites_count": 1,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 544,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/690400196954554369/2U3LkqwR_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/690400196954554369/2U3LkqwR_normal.png",
+        "profile_link_color": "94D487",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 16:30:09 +0000 2017",
+      "id": 835164924552835075,
+      "id_str": "835164924552835075",
+      "text": "Put it in your diaries, folks - in March we'll be going to @cebit w/ #MSFT. Don't miss the latest on #S4B https://t.co/hAF8dXlhNF",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              69,
+              74
+            ]
+          },
+          {
+            "text": "S4B",
+            "indices": [
+              101,
+              105
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "cebit",
+            "name": "CeBIT",
+            "id": 3145811,
+            "id_str": "3145811",
+            "indices": [
+              59,
+              65
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/hAF8dXlhNF",
+            "expanded_url": "http://www.cebit.de/exhibitor/polycom/K370398",
+            "display_url": "cebit.de/exhibitor/poly…",
+            "indices": [
+              106,
+              129
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 376756613,
+        "id_str": "376756613",
+        "name": "Polycom EMEA",
+        "screen_name": "PolycomEMEA",
+        "location": "Europe, Middle East and Africa",
+        "description": "Polycom helps organisations unleash the power of human collaboration. More than 400,000 companies worldwide #defydistance with secure video, voice and content.",
+        "url": "https://t.co/flkh5S0eH8",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/flkh5S0eH8",
+                "expanded_url": "http://www.polycom.co.uk",
+                "display_url": "polycom.co.uk",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 15711,
+        "friends_count": 10054,
+        "listed_count": 607,
+        "created_at": "Tue Sep 20 13:00:04 +0000 2011",
+        "favourites_count": 2190,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 14487,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/459013316057116672/qmgCtyhN.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/459013316057116672/qmgCtyhN.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2246806377/plcm-logo-twitter_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2246806377/plcm-logo-twitter_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/376756613/1482236652",
+        "profile_link_color": "BD1313",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "E6E6E6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 16:30:04 +0000 2017",
+      "id": 835164903799472131,
+      "id_str": "835164903799472131",
+      "text": "Predict the behaviour of #MSFT. After 4,616,000 Shares have been sold by insiders in last one week",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              25,
+              30
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://127.0.0.1\" rel=\"nofollow\">tinoiq</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3270769886,
+        "id_str": "3270769886",
+        "name": "TINO IQ",
+        "screen_name": "tino_iq",
+        "location": "Silicon Valley",
+        "description": "Trading ideas for new opportunities, Our mission is to protect you from stocks manipulation and consistently grow wealth",
+        "url": "https://t.co/DZ7Dh4rQqQ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/DZ7Dh4rQqQ",
+                "expanded_url": "http://www.tinoiq.com",
+                "display_url": "tinoiq.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 3564,
+        "friends_count": 7,
+        "listed_count": 4,
+        "created_at": "Tue Jul 07 07:29:18 +0000 2015",
+        "favourites_count": 33,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 595,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/726127873061351429/GAFs1bdF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/726127873061351429/GAFs1bdF_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3270769886/1449557410",
+        "profile_link_color": "4A913C",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 16:13:41 +0000 2017",
+      "id": 835160783109636097,
+      "id_str": "835160783109636097",
+      "text": "A world without #Azure #clusters? See how a new #MSFT #SLA could help you run a standalone #SQLServer #VM in prod. https://t.co/eCVnURu5fu",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Azure",
+            "indices": [
+              16,
+              22
+            ]
+          },
+          {
+            "text": "clusters",
+            "indices": [
+              23,
+              32
+            ]
+          },
+          {
+            "text": "MSFT",
+            "indices": [
+              48,
+              53
+            ]
+          },
+          {
+            "text": "SLA",
+            "indices": [
+              54,
+              58
+            ]
+          },
+          {
+            "text": "SQLServer",
+            "indices": [
+              91,
+              101
+            ]
+          },
+          {
+            "text": "VM",
+            "indices": [
+              102,
+              105
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/eCVnURu5fu",
+            "expanded_url": "http://ow.ly/dUEW309khVG",
+            "display_url": "ow.ly/dUEW309khVG",
+            "indices": [
+              115,
+              138
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 822255938,
+        "id_str": "822255938",
+        "name": "10th Magnitude",
+        "screen_name": "10thMagnitude",
+        "location": "Chicago",
+        "description": "10th Magnitude helps businesses transform with innovative, cloud-based solutions that harness the power of Microsoft Azure.",
+        "url": "http://t.co/q9lhWPlCl2",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/q9lhWPlCl2",
+                "expanded_url": "http://10thmagnitude.com",
+                "display_url": "10thmagnitude.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2023,
+        "friends_count": 843,
+        "listed_count": 390,
+        "created_at": "Thu Sep 13 22:04:50 +0000 2012",
+        "favourites_count": 1629,
+        "utc_offset": -21600,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3470,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/480105537971834880/9OpygazC_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/480105537971834880/9OpygazC_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/822255938/1482427801",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 15:42:00 +0000 2017",
+      "id": 835152807875526656,
+      "id_str": "835152807875526656",
+      "text": "RT @SQLServer: Get the most from your #database system with #MSFT #SQLServer. Download our e-book to get started: https://t.co/1NYAuHy2yh h…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "database",
+            "indices": [
+              38,
+              47
+            ]
+          },
+          {
+            "text": "MSFT",
+            "indices": [
+              60,
+              65
+            ]
+          },
+          {
+            "text": "SQLServer",
+            "indices": [
+              66,
+              76
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "SQLServer",
+            "name": "Microsoft SQL Server",
+            "id": 64331621,
+            "id_str": "64331621",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/1NYAuHy2yh",
+            "expanded_url": "http://msft.social/ST9sGB",
+            "display_url": "msft.social/ST9sGB",
+            "indices": [
+              114,
+              137
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.microsoft.com\" rel=\"nofollow\">_Microsoft</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 61233202,
+        "id_str": "61233202",
+        "name": "US Partner Training",
+        "screen_name": "mslearningcurve",
+        "location": "Redmond, WA",
+        "description": "Build your cloud skills, knowledge, and practice with Microsoft partner resources and training courses, webcasts, and calls.",
+        "url": "https://t.co/TvMnYxJrXn",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/TvMnYxJrXn",
+                "expanded_url": "http://aka.ms/usptrainingblog",
+                "display_url": "aka.ms/usptrainingblog",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 5189,
+        "friends_count": 944,
+        "listed_count": 492,
+        "created_at": "Wed Jul 29 16:23:33 +0000 2009",
+        "favourites_count": 10,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 16351,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "737373",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/459051513726267393/n4aZ1HkD.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/459051513726267393/n4aZ1HkD.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/710173715615473664/mkNb-w3b_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/710173715615473664/mkNb-w3b_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/61233202/1467088657",
+        "profile_link_color": "68217A",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDFFCC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Wed Feb 22 18:00:03 +0000 2017",
+        "id": 834462772259934209,
+        "id_str": "834462772259934209",
+        "text": "Get the most from your #database system with #MSFT #SQLServer. Download our e-book to get started:… https://t.co/gT6YE5zzzg",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "database",
+              "indices": [
+                23,
+                32
+              ]
+            },
+            {
+              "text": "MSFT",
+              "indices": [
+                45,
+                50
+              ]
+            },
+            {
+              "text": "SQLServer",
+              "indices": [
+                51,
+                61
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/gT6YE5zzzg",
+              "expanded_url": "https://twitter.com/i/web/status/834462772259934209",
+              "display_url": "twitter.com/i/web/status/8…",
+              "indices": [
+                100,
+                123
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://prod2.sprinklr.com\" rel=\"nofollow\">Sprinklr Prod2</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 64331621,
+          "id_str": "64331621",
+          "name": "Microsoft SQL Server",
+          "screen_name": "SQLServer",
+          "location": "Redmond, WA",
+          "description": "Data-Driven. Faster Insights. Breakthrough Performance. In-Memory Technology. Hybrid Data Platform. News & More. #SQLServer",
+          "url": "http://t.co/lnJkxAm3vf",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/lnJkxAm3vf",
+                  "expanded_url": "http://www.microsoft.com/sqlserver",
+                  "display_url": "microsoft.com/sqlserver",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 207803,
+          "friends_count": 4423,
+          "listed_count": 3307,
+          "created_at": "Mon Aug 10 04:01:45 +0000 2009",
+          "favourites_count": 608,
+          "utc_offset": -28800,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 11312,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "BA141A",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/657622193/4n8wsrhoujxn5bjrnl65.png",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/657622193/4n8wsrhoujxn5bjrnl65.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/697180556908371968/SA8_daMd_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/697180556908371968/SA8_daMd_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/64331621/1455055766",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "C6C6C6",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 24,
+        "favorite_count": 27,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 24,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 15:41:35 +0000 2017",
+      "id": 835152703886135297,
+      "id_str": "835152703886135297",
+      "text": "RT @msftsecurity: Go behind-the-scenes of a secured worldwide film making network w/ @NewRegency &amp; #MSFT at #RSAC:\nhttps://t.co/WPQqGyulBC",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              103,
+              108
+            ]
+          },
+          {
+            "text": "RSAC",
+            "indices": [
+              112,
+              117
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "msftsecurity",
+            "name": "Microsoft Secure",
+            "id": 208214219,
+            "id_str": "208214219",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "NewRegency",
+            "name": "New Regency",
+            "id": 449458965,
+            "id_str": "449458965",
+            "indices": [
+              85,
+              96
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/WPQqGyulBC",
+            "expanded_url": "http://msft.social/zKQgQ5",
+            "display_url": "msft.social/zKQgQ5",
+            "indices": [
+              119,
+              142
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://github.com/\" rel=\"nofollow\">FilmProd Auto</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 828881362706919425,
+        "id_str": "828881362706919425",
+        "name": "ProdBot",
+        "screen_name": "FilmProdBot",
+        "location": "West Hollywood, CA",
+        "description": "Anything and everything film, movies, and production!",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 348,
+        "friends_count": 2107,
+        "listed_count": 17,
+        "created_at": "Tue Feb 07 08:21:31 +0000 2017",
+        "favourites_count": 8393,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 14261,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/828882488571416576/AGHtdWin_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/828882488571416576/AGHtdWin_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/828881362706919425/1486455971",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Wed Feb 15 20:29:51 +0000 2017",
+        "id": 831963756007739393,
+        "id_str": "831963756007739393",
+        "text": "Go behind-the-scenes of a secured worldwide film making network w/ @NewRegency &amp; #MSFT at #RSAC:\nhttps://t.co/WPQqGyulBC",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "MSFT",
+              "indices": [
+                85,
+                90
+              ]
+            },
+            {
+              "text": "RSAC",
+              "indices": [
+                94,
+                99
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "NewRegency",
+              "name": "New Regency",
+              "id": 449458965,
+              "id_str": "449458965",
+              "indices": [
+                67,
+                78
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/WPQqGyulBC",
+              "expanded_url": "http://msft.social/zKQgQ5",
+              "display_url": "msft.social/zKQgQ5",
+              "indices": [
+                101,
+                124
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://prod2.sprinklr.com\" rel=\"nofollow\">Sprinklr Prod2</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 208214219,
+          "id_str": "208214219",
+          "name": "Microsoft Secure",
+          "screen_name": "msftsecurity",
+          "location": "Redmond, WA",
+          "description": "The official Twitter handle for the Microsoft Secure team. Follow for news, updates, and much more. #MSSecure",
+          "url": "https://t.co/ydhbB7MGQA",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/ydhbB7MGQA",
+                  "expanded_url": "http://www.microsoft.com/secure",
+                  "display_url": "microsoft.com/secure",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 262698,
+          "friends_count": 330,
+          "listed_count": 3288,
+          "created_at": "Tue Oct 26 21:32:36 +0000 2010",
+          "favourites_count": 16,
+          "utc_offset": -28800,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 12751,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "002050",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000026149645/02cef58786327b165780758fa44d1aca.png",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000026149645/02cef58786327b165780758fa44d1aca.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/737768804831240193/_EEYjIGj_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/737768804831240193/_EEYjIGj_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/208214219/1464735529",
+          "profile_link_color": "00ACED",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "FAFBFC",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 9,
+        "favorite_count": 5,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 9,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 15:17:29 +0000 2017",
+      "id": 835146638897225728,
+      "id_str": "835146638897225728",
+      "text": "Still waiting for #MSFT #Microsoft #stocks #trading #reliable #service. https://t.co/Y9WIxLiypt https://t.co/J3BQe3iiig",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              18,
+              23
+            ]
+          },
+          {
+            "text": "Microsoft",
+            "indices": [
+              24,
+              34
+            ]
+          },
+          {
+            "text": "stocks",
+            "indices": [
+              35,
+              42
+            ]
+          },
+          {
+            "text": "trading",
+            "indices": [
+              43,
+              51
+            ]
+          },
+          {
+            "text": "reliable",
+            "indices": [
+              52,
+              61
+            ]
+          },
+          {
+            "text": "service",
+            "indices": [
+              62,
+              70
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Y9WIxLiypt",
+            "expanded_url": "http://logictrades.com",
+            "display_url": "logictrades.com",
+            "indices": [
+              72,
+              95
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 835146605330231296,
+            "id_str": "835146605330231296",
+            "indices": [
+              96,
+              119
+            ],
+            "media_url": "http://pbs.twimg.com/media/C5cJaaoU8AA6xix.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C5cJaaoU8AA6xix.jpg",
+            "url": "https://t.co/J3BQe3iiig",
+            "display_url": "pic.twitter.com/J3BQe3iiig",
+            "expanded_url": "https://twitter.com/LogicTrades/status/835146638897225728/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 380,
+                "h": 283,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 380,
+                "h": 283,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 380,
+                "h": 283,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 835146605330231296,
+            "id_str": "835146605330231296",
+            "indices": [
+              96,
+              119
+            ],
+            "media_url": "http://pbs.twimg.com/media/C5cJaaoU8AA6xix.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C5cJaaoU8AA6xix.jpg",
+            "url": "https://t.co/J3BQe3iiig",
+            "display_url": "pic.twitter.com/J3BQe3iiig",
+            "expanded_url": "https://twitter.com/LogicTrades/status/835146638897225728/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 380,
+                "h": 283,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 380,
+                "h": 283,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 380,
+                "h": 283,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 715098417689538560,
+        "id_str": "715098417689538560",
+        "name": "Logic Trades",
+        "screen_name": "LogicTrades",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1543,
+        "friends_count": 291,
+        "listed_count": 28,
+        "created_at": "Wed Mar 30 08:48:43 +0000 2016",
+        "favourites_count": 5,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 201,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/716879800657248256/jsYQWj7w_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/716879800657248256/jsYQWj7w_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 14:43:52 +0000 2017",
+      "id": 835138179946655746,
+      "id_str": "835138179946655746",
+      "text": "@demon_saw secure alternative to email/chat needed asap! Fact:if you run your own #email server you will get #blacklisted by #Google &amp; #MSFT",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "email",
+            "indices": [
+              82,
+              88
+            ]
+          },
+          {
+            "text": "blacklisted",
+            "indices": [
+              109,
+              121
+            ]
+          },
+          {
+            "text": "Google",
+            "indices": [
+              125,
+              132
+            ]
+          },
+          {
+            "text": "MSFT",
+            "indices": [
+              139,
+              144
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "demon_saw",
+            "name": "Eijah",
+            "id": 2527833403,
+            "id_str": "2527833403",
+            "indices": [
+              0,
+              10
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": 2527833403,
+      "in_reply_to_user_id_str": "2527833403",
+      "in_reply_to_screen_name": "demon_saw",
+      "user": {
+        "id": 786957002824118272,
+        "id_str": "786957002824118272",
+        "name": "StuffGoGo",
+        "screen_name": "StuffGoGo",
+        "location": "Contact: twitter@stuffgogo.com",
+        "description": "Blockchain driven e-commerce platform with no big brother involved that allows you to buy and sell stuff online, no fees and no restrictions.",
+        "url": "https://t.co/MZ4al2XA93",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/MZ4al2XA93",
+                "expanded_url": "https://www.crowdfunder.com/stuffgogo-llc",
+                "display_url": "crowdfunder.com/stuffgogo-llc",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1124,
+        "friends_count": 4522,
+        "listed_count": 21,
+        "created_at": "Fri Oct 14 15:49:05 +0000 2016",
+        "favourites_count": 153,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 227,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/786960150653505536/voqGWFZI_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/786960150653505536/voqGWFZI_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/786957002824118272/1479134905",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 14:32:06 +0000 2017",
+      "id": 835135217107156992,
+      "id_str": "835135217107156992",
+      "text": "My blog: Understanding Microsoft AppSource and Dynamics 365 #CRM #msft https://t.co/Hs95qw3Gh5 https://t.co/4a76cvyjGn",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "CRM",
+            "indices": [
+              60,
+              64
+            ]
+          },
+          {
+            "text": "msft",
+            "indices": [
+              65,
+              70
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Hs95qw3Gh5",
+            "expanded_url": "http://blogs.infostrat.com/2016/07/understand-microsoft-appsource-and.html",
+            "display_url": "blogs.infostrat.com/2016/07/unders…",
+            "indices": [
+              71,
+              94
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 835135214011678720,
+            "id_str": "835135214011678720",
+            "indices": [
+              95,
+              118
+            ],
+            "media_url": "http://pbs.twimg.com/media/C5b_DWqWAAAa67_.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C5b_DWqWAAAa67_.jpg",
+            "url": "https://t.co/4a76cvyjGn",
+            "display_url": "pic.twitter.com/4a76cvyjGn",
+            "expanded_url": "https://twitter.com/jamestownsend/status/835135217107156992/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 401,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1568,
+                "h": 925,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 708,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 835135214011678720,
+            "id_str": "835135214011678720",
+            "indices": [
+              95,
+              118
+            ],
+            "media_url": "http://pbs.twimg.com/media/C5b_DWqWAAAa67_.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C5b_DWqWAAAa67_.jpg",
+            "url": "https://t.co/4a76cvyjGn",
+            "display_url": "pic.twitter.com/4a76cvyjGn",
+            "expanded_url": "https://twitter.com/jamestownsend/status/835135217107156992/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 401,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1568,
+                "h": 925,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 708,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://www.socialjukebox.com\" rel=\"nofollow\">The Social Jukebox</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 17218105,
+        "id_str": "17218105",
+        "name": "James Townsend",
+        "screen_name": "jamestownsend",
+        "location": "Washington, DC",
+        "description": "Entrepreneur at InfoStrat, author,   https://t.co/D4RpeaGWT5 #msdyn365 #govcon #MSCRM #Office365 #SharePoint #Azure #startup #marketing",
+        "url": "https://t.co/spzpzCpcYn",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/spzpzCpcYn",
+                "expanded_url": "http://www.infostrat.com/solutions",
+                "display_url": "infostrat.com/solutions",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/D4RpeaGWT5",
+                "expanded_url": "http://blogs.InfoStrat.com",
+                "display_url": "blogs.InfoStrat.com",
+                "indices": [
+                  37,
+                  60
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 10817,
+        "friends_count": 8683,
+        "listed_count": 1140,
+        "created_at": "Thu Nov 06 20:05:19 +0000 2008",
+        "favourites_count": 613,
+        "utc_offset": -21600,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 45983,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "0099B9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/668913559951286272/mauBrjwR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/668913559951286272/mauBrjwR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/17218105/1481307822",
+        "profile_link_color": "0099B9",
+        "profile_sidebar_border_color": "5ED4DC",
+        "profile_sidebar_fill_color": "95E8EC",
+        "profile_text_color": "3C3940",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 14:28:00 +0000 2017",
+      "id": 835134186671370240,
+      "id_str": "835134186671370240",
+      "text": "Improving productivity &amp; cutting costs? Find out how #Polycom &amp; #MSFT create amazing business value - it's all here… https://t.co/Q3fMMUanhV",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Polycom",
+            "indices": [
+              57,
+              65
+            ]
+          },
+          {
+            "text": "MSFT",
+            "indices": [
+              72,
+              77
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Q3fMMUanhV",
+            "expanded_url": "https://twitter.com/i/web/status/835134186671370240",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              125,
+              148
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 54874209,
+        "id_str": "54874209",
+        "name": "Patricia Finlayson",
+        "screen_name": "patfinlayson",
+        "location": "United Kingdom",
+        "description": "Solution Product Marketing Manager at Polycom, self-confessed geek and nerd....cat lover, World of #Warcraft freak. Views expressed are my own.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1406,
+        "friends_count": 2583,
+        "listed_count": 217,
+        "created_at": "Wed Jul 08 11:57:58 +0000 2009",
+        "favourites_count": 843,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 4652,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "642D8B",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/510345829480013824/TTV67a8P_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/510345829480013824/TTV67a8P_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/54874209/1391087892",
+        "profile_link_color": "B500D1",
+        "profile_sidebar_border_color": "65B0DA",
+        "profile_sidebar_fill_color": "7AC3EE",
+        "profile_text_color": "3D1957",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 13:45:31 +0000 2017",
+      "id": 835123492995608580,
+      "id_str": "835123492995608580",
+      "text": "RT @CANSQL: no future for programming? #AI learns to write its own code by stealing from other programs https://t.co/l3TFKiGEkj #ML #MSFT h…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AI",
+            "indices": [
+              39,
+              42
+            ]
+          },
+          {
+            "text": "ML",
+            "indices": [
+              128,
+              131
+            ]
+          },
+          {
+            "text": "MSFT",
+            "indices": [
+              132,
+              137
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "CANSQL",
+            "name": "Eduard Davidzhan",
+            "id": 552211831,
+            "id_str": "552211831",
+            "indices": [
+              3,
+              10
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/l3TFKiGEkj",
+            "expanded_url": "https://www.newscientist.com/article/mg23331144-500-ai-learns-to-write-its-own-code-by-stealing-from-other-programs/",
+            "display_url": "newscientist.com/article/mg2333…",
+            "indices": [
+              104,
+              127
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://app.sociabble.com\" rel=\"nofollow\">SociabbleApp</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 252162571,
+        "id_str": "252162571",
+        "name": "Inga Seelemann",
+        "screen_name": "inseelem",
+        "location": "",
+        "description": "Dynamics CRM Customer Sucess Manager at Microsoft. https://t.co/kq4Ugls93H...",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/kq4Ugls93H",
+                "expanded_url": "http://microsoft.com/en-us/dynamic",
+                "display_url": "microsoft.com/en-us/dynamic",
+                "indices": [
+                  51,
+                  74
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 94,
+        "friends_count": 67,
+        "listed_count": 77,
+        "created_at": "Mon Feb 14 16:32:58 +0000 2011",
+        "favourites_count": 56,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1459,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/794438134347939841/fQPRt9E0_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/794438134347939841/fQPRt9E0_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Feb 24 02:59:32 +0000 2017",
+        "id": 834960926512189440,
+        "id_str": "834960926512189440",
+        "text": "no future for programming? #AI learns to write its own code by stealing from other programs https://t.co/l3TFKiGEkj… https://t.co/88XRHJTLzq",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "AI",
+              "indices": [
+                27,
+                30
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/l3TFKiGEkj",
+              "expanded_url": "https://www.newscientist.com/article/mg23331144-500-ai-learns-to-write-its-own-code-by-stealing-from-other-programs/",
+              "display_url": "newscientist.com/article/mg2333…",
+              "indices": [
+                92,
+                115
+              ]
+            },
+            {
+              "url": "https://t.co/88XRHJTLzq",
+              "expanded_url": "https://twitter.com/i/web/status/834960926512189440",
+              "display_url": "twitter.com/i/web/status/8…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 552211831,
+          "id_str": "552211831",
+          "name": "Eduard Davidzhan",
+          "screen_name": "CANSQL",
+          "location": "Mississauga",
+          "description": "Microsoft Analytics and SQL Server Product Marketing Manager @ Microsoft Canada. Join our community on LinkedIn https://t.co/72bJANHJZn.",
+          "url": "http://t.co/txLkbhSAYt",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/txLkbhSAYt",
+                  "expanded_url": "http://aka.ms/SQLBlog",
+                  "display_url": "aka.ms/SQLBlog",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/72bJANHJZn",
+                  "expanded_url": "http://www.aka.ms/CanSQL",
+                  "display_url": "aka.ms/CanSQL",
+                  "indices": [
+                    112,
+                    135
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 424,
+          "friends_count": 311,
+          "listed_count": 110,
+          "created_at": "Thu Apr 12 22:10:28 +0000 2012",
+          "favourites_count": 26,
+          "utc_offset": -14400,
+          "time_zone": "Atlantic Time (Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 957,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/781503562329169925/9yAIsX-T_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/781503562329169925/9yAIsX-T_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 13:10:46 +0000 2017",
+      "id": 835114749419479041,
+      "id_str": "835114749419479041",
+      "text": "Join the #MSFT Networking Academy Webinar Series w/ the #Azure Black Belt Team to learn about all things networking! https://t.co/fenhcDcKkL",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              9,
+              14
+            ]
+          },
+          {
+            "text": "Azure",
+            "indices": [
+              56,
+              62
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/fenhcDcKkL",
+            "expanded_url": "http://soc.fm/3n94JbUR",
+            "display_url": "soc.fm/3n94JbUR",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://app.sociabble.com\" rel=\"nofollow\">SociabbleApp</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 22762148,
+        "id_str": "22762148",
+        "name": "Łukasz Foks",
+        "screen_name": "fokslukasz",
+        "location": "Warsaw, PL & Munich, DE",
+        "description": "☁ Business Developer #CEE  #OpenSource @Azure @Microsoft | #ValueProp Design, #Service Design, #Design Thinking, #VentureDesign | PhD Candidate @KozminskiUni",
+        "url": "https://t.co/uN1KDrSwqi",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/uN1KDrSwqi",
+                "expanded_url": "http://pl.linkedin.com/in/lukaszfoks/",
+                "display_url": "pl.linkedin.com/in/lukaszfoks/",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 705,
+        "friends_count": 1481,
+        "listed_count": 145,
+        "created_at": "Wed Mar 04 12:21:22 +0000 2009",
+        "favourites_count": 585,
+        "utc_offset": 3600,
+        "time_zone": "Warsaw",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1489,
+        "lang": "pl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "022330",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/276809265/x5777ad1fe494b45cf14d3f6d778c752.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/276809265/x5777ad1fe494b45cf14d3f6d778c752.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/785494288612417536/trigRKSy_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/785494288612417536/trigRKSy_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/22762148/1449520421",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "A8C7F7",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 13:01:11 +0000 2017",
+      "id": 835112336725790720,
+      "id_str": "835112336725790720",
+      "text": "Struggling to keep your #Microsoft software spend to a minimum? Benefit your budget with #SAM tips from Snow #MSFT… https://t.co/zwJwzi6IQa",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Microsoft",
+            "indices": [
+              24,
+              34
+            ]
+          },
+          {
+            "text": "SAM",
+            "indices": [
+              89,
+              93
+            ]
+          },
+          {
+            "text": "MSFT",
+            "indices": [
+              109,
+              114
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/zwJwzi6IQa",
+            "expanded_url": "https://twitter.com/i/web/status/835112336725790720",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 113444696,
+        "id_str": "113444696",
+        "name": "Snow Software",
+        "screen_name": "SnowSoftware",
+        "location": "Sweden",
+        "description": "We stop organizations paying too much for the software they consume – optimizing licensing & minimizing compliance risk. #SoftwareAssetManagement world leader.",
+        "url": "http://t.co/XuzYU4RIHa",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/XuzYU4RIHa",
+                "expanded_url": "http://www.snowsoftware.com",
+                "display_url": "snowsoftware.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4897,
+        "friends_count": 593,
+        "listed_count": 133,
+        "created_at": "Thu Feb 11 19:49:10 +0000 2010",
+        "favourites_count": 517,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 4951,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "2FB1D3",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/593030532331544579/E5q1WYGN.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/593030532331544579/E5q1WYGN.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/593029108629708801/syGotNDD_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/593029108629708801/syGotNDD_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/113444696/1476956459",
+        "profile_link_color": "2FB1D3",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 13:00:04 +0000 2017",
+      "id": 835112057372540933,
+      "id_str": "835112057372540933",
+      "text": "What do you need to think about when you use #MSFT @Office365 Cloud Voice? This @zkerravala report breaks it down:… https://t.co/iqrPuoJsxQ",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MSFT",
+            "indices": [
+              45,
+              50
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Office365",
+            "name": "Office 365",
+            "id": 137365854,
+            "id_str": "137365854",
+            "indices": [
+              51,
+              61
+            ]
+          },
+          {
+            "screen_name": "zkerravala",
+            "name": "ZeeMan",
+            "id": 17825500,
+            "id_str": "17825500",
+            "indices": [
+              80,
+              91
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/iqrPuoJsxQ",
+            "expanded_url": "https://twitter.com/i/web/status/835112057372540933",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 376756613,
+        "id_str": "376756613",
+        "name": "Polycom EMEA",
+        "screen_name": "PolycomEMEA",
+        "location": "Europe, Middle East and Africa",
+        "description": "Polycom helps organisations unleash the power of human collaboration. More than 400,000 companies worldwide #defydistance with secure video, voice and content.",
+        "url": "https://t.co/flkh5S0eH8",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/flkh5S0eH8",
+                "expanded_url": "http://www.polycom.co.uk",
+                "display_url": "polycom.co.uk",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 15711,
+        "friends_count": 10054,
+        "listed_count": 607,
+        "created_at": "Tue Sep 20 13:00:04 +0000 2011",
+        "favourites_count": 2190,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 14487,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/459013316057116672/qmgCtyhN.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/459013316057116672/qmgCtyhN.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2246806377/plcm-logo-twitter_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2246806377/plcm-logo-twitter_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/376756613/1482236652",
+        "profile_link_color": "BD1313",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "E6E6E6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Feb 24 12:48:52 +0000 2017",
+      "id": 835109238309597184,
+      "id_str": "835109238309597184",
+      "text": "My video @ch9 with @Lext that talks about options to build &amp; run Microservices on Azure https://t.co/2f7Q87OIti #azure #msft #microservices",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "azure",
+            "indices": [
+              116,
+              122
+            ]
+          },
+          {
+            "text": "msft",
+            "indices": [
+              123,
+              128
+            ]
+          },
+          {
+            "text": "microservices",
+            "indices": [
+              129,
+              143
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ch9",
+            "name": "Microsoft Channel 9",
+            "id": 9460682,
+            "id_str": "9460682",
+            "indices": [
+              9,
+              13
+            ]
+          },
+          {
+            "screen_name": "Lext",
+            "name": "Lext",
+            "id": 14553510,
+            "id_str": "14553510",
+            "indices": [
+              19,
+              24
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/2f7Q87OIti",
+            "expanded_url": "https://channel9.msdn.com/Blogs/Taste-of-Premier/ToP1713",
+            "display_url": "channel9.msdn.com/Blogs/Taste-of…",
+            "indices": [
+              92,
+              115
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 64174432,
+        "id_str": "64174432",
+        "name": "::Razi::",
+        "screen_name": "razibinrais",
+        "location": "New York City",
+        "description": "Blockchain | Identity | Microservices |  Microsoft",
+        "url": "http://t.co/i5q4JIwMLy",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/i5q4JIwMLy",
+                "expanded_url": "http://razibinrais.com",
+                "display_url": "razibinrais.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 399,
+        "friends_count": 521,
+        "listed_count": 142,
+        "created_at": "Sun Aug 09 13:36:57 +0000 2009",
+        "favourites_count": 230,
+        "utc_offset": -32400,
+        "time_zone": "Alaska",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1429,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/582255122891161600/w2AAZ2kU_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/582255122891161600/w2AAZ2kU_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/64174432/1427654185",
+        "profile_link_color": "FAB81E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "01a9a39529b27f36",
+        "url": "https://api.twitter.com/1.1/geo/id/01a9a39529b27f36.json",
+        "place_type": "city",
+        "name": "Manhattan",
+        "full_name": "Manhattan, NY",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -74.026675,
+                40.683935
+              ],
+              [
+                -73.910408,
+                40.683935
+              ],
+              [
+                -73.910408,
+                40.877483
+              ],
+              [
+                -74.026675,
+                40.877483
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.067,
+    "max_id": 835166364616773632,
+    "max_id_str": "835166364616773632",
+    "next_results": "?max_id=835109238309597183&q=%23msft&lang=en&include_entities=1",
+    "query": "%23msft",
+    "refresh_url": "?since_id=835166364616773632&q=%23msft&lang=en&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
