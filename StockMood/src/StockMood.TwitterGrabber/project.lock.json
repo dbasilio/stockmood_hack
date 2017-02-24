@@ -3,6 +3,12 @@
   "version": 2,
   "targets": {
     ".NETStandard,Version=v1.6": {
+      "AWSSDK/2.3.55.2": {
+        "type": "package"
+      },
+      "linqtotwitter/4.1.0": {
+        "type": "package"
+      },
       "Microsoft.NETCore.Platforms/1.0.1": {
         "type": "package",
         "compile": {
@@ -1071,6 +1077,42 @@
     }
   },
   "libraries": {
+    "AWSSDK/2.3.55.2": {
+      "sha512": "zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "type": "package",
+      "path": "AWSSDK/2.3.55.2",
+      "files": [
+        "AWSSDK.2.3.55.2.nupkg.sha512",
+        "AWSSDK.nuspec",
+        "lib/net35/AWSSDK.dll",
+        "lib/net35/AWSSDK.pdb",
+        "lib/net45/AWSSDK.dll",
+        "lib/net45/AWSSDK.pdb",
+        "lib/portable-wpa+netcore45/AWSSDK.dll",
+        "lib/windows8/AWSSDK.dll",
+        "lib/windowsphone8/AWSSDK.dll",
+        "tools/account-management.ps1",
+        "tools/net35/install.ps1",
+        "tools/net45/install.ps1"
+      ]
+    },
+    "linqtotwitter/4.1.0": {
+      "sha512": "AvmlI+moHkAav35oWiwWcqlmH+g/xWpaVy9jeL50LLy4r2Z+VkO3fdyV90bBHFpkJENBqDtLRyTv0X3/Pd09Ew==",
+      "type": "package",
+      "path": "linqtotwitter/4.1.0",
+      "files": [
+        "lib/monoandroid/LinqToTwitter.xamarin.dll",
+        "lib/monotouch/LinqToTwitter.xamarin.dll",
+        "lib/net45/LinqToTwitter.AspNet.dll",
+        "lib/net45/LinqToTwitter.net.dll",
+        "lib/portable-net45+win+wpa81/LinqToTwitter.xamarin.dll",
+        "lib/portable-win8+net45+wp8/LinqToTwitter.xamarin.dll",
+        "lib/uap10.0/LinqToTwitter.uap10.dll",
+        "lib/xamarin.ios/LinqToTwitter.xamarin.dll",
+        "linqtotwitter.4.1.0.nupkg.sha512",
+        "linqtotwitter.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.0.1": {
       "sha512": "2G6OjjJzwBfNOO8myRV/nFrbTw5iA+DEm0N+qUqhrOmaVtn4pC77h38I1jsXGw5VH55+dPfQsqHD0We9sCl9FQ==",
       "type": "package",
@@ -4017,7 +4059,9 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "NETStandard.Library >= 1.6.0"
+      "AWSSDK >= 2.3.55.2",
+      "NETStandard.Library >= 1.6.0",
+      "linqtotwitter >= 4.1.0"
     ],
     ".NETStandard,Version=v1.6": []
   },

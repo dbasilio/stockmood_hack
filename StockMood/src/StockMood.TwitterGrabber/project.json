@@ -2,6 +2,8 @@
   "version": "1.0.0-*",
 
   "dependencies": {
+    "AWSSDK": "2.3.55.2",
+    "linqtotwitter": "4.1.0",
     "NETStandard.Library": "1.6.0"
   },
 
