@@ -59,7 +59,7 @@ namespace StockMood.TwitterGrabber
                             x =>
                                 !x.IsRetweet && x.Language == Language.English && !existingTweetIds.Contains(x.IdStr) &&
                                 x.TweetDTO.CreatedBy.FollowersCount > 500)
-                        .Take(1000);
+                        .Take(10000);
                 foreach (var tweet in tweets)
                 {
                     tweetDtoList.Add(new TweetDto
@@ -106,15 +106,22 @@ namespace StockMood.TwitterGrabber
 
             foreach (var sentence in sentimentResponse.Sentences)
             {
-                context.Logger.LogLine($"{sentence.Text.Content}");
-                var tweetId = tweetIdRegex.Match(sentence.Text.Content).Value;
-
                 if (!tweetIdRegex.IsMatch(sentence.Text.Content))
                 {
                     continue;
                 }
 
+                context.Logger.LogLine($"{sentence.Text.Content}");
+
+                var tweetId = tweetIdRegex.Match(sentence.Text.Content).Value;
+                
                 var tweet = tweetDtoList.Find(t => t.TweetId == tweetId);
+
+                if (tweet == null)
+                {
+                    context.Logger.LogLine($"Couldn't find tweet with id {tweetId}");
+                    continue;
+                }
                 tweet.Score = sentence.Sentiment.Score ?? 0;
                 tweet.Magnitude = sentence.Sentiment.Magnitude ?? 0;
                 tweet.PopularityScore = tweet.Magnitude*tweet.Score*(2*tweet.NumberOfRetweets + tweet.NumberOfLikes);
@@ -124,8 +131,8 @@ namespace StockMood.TwitterGrabber
             batchWrite.AddPutItems(tweetDtoList);
             batchWrite.ExecuteAsync();
 
-            dbContext.Dispose();
-            dynamoDbClient.Dispose();
+            //dbContext.Dispose();
+            //dynamoDbClient.Dispose();
 
             context.Logger.LogLine("finished running");
         }
