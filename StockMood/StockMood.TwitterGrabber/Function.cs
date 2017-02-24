@@ -43,8 +43,10 @@ namespace StockMood.TwitterGrabber
             {
                 existingTweetIds.Add(existingTweet.TweetId);
             }
-
             var searchKeywords = dbContext.ScanAsync<SearchKeywordsDto>(new ScanCondition[] {});
+
+            var googleString = "";
+
             foreach (var keyword in searchKeywords.GetRemainingAsync().Result)
             {
                 var tweets =
@@ -54,24 +56,30 @@ namespace StockMood.TwitterGrabber
                                 !x.IsRetweet && x.Language == Language.English && !existingTweetIds.Contains(x.IdStr) &&
                                 x.TweetDTO.CreatedBy.FollowersCount > 500)
                         .Take(1000);
-                tweetDtoList.AddRange(tweets.Select(tweet => new TweetDto
+                foreach (var tweet in tweets)
                 {
-                    TweetId = tweet.IdStr,
-                    Text = tweet.FullText,
-                    NumberOfRetweets = tweet.RetweetCount,
-                    NumberOfLikes = tweet.FavoriteCount,
-                    DateCreated = tweet.CreatedAt,
-                    Permalink = tweet.Url,
-                    User = new UserDto
+                    tweetDtoList.Add(new TweetDto
                     {
-                        ScreenName = tweet.TweetDTO.CreatedBy.ScreenName,
-                        EmailAddress = tweet.TweetDTO.CreatedBy.Email,
-                        UserName = tweet.TweetDTO.CreatedBy.Name,
-                        NumberOfFollowers = tweet.TweetDTO.CreatedBy.FollowersCount
-                    }
-                }));
+                        TweetId = tweet.IdStr,
+                        Text = tweet.FullText,
+                        NumberOfRetweets = tweet.RetweetCount,
+                        NumberOfLikes = tweet.FavoriteCount,
+                        DateCreated = tweet.CreatedAt,
+                        Permalink = tweet.Url,
+                        User = new UserDto
+                        {
+                            ScreenName = tweet.TweetDTO.CreatedBy.ScreenName,
+                            EmailAddress = tweet.TweetDTO.CreatedBy.Email,
+                            UserName = tweet.TweetDTO.CreatedBy.Name,
+                            NumberOfFollowers = tweet.TweetDTO.CreatedBy.FollowersCount
+                        }
+                    });
+                    googleString +=
+                        $"|||| {tweet.IdStr} {new string(tweet.FullText.Where(c => !char.IsPunctuation(c)).ToArray())}";
+                }
             }
 
+            
             var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
             batchWrite.AddPutItems(tweetDtoList);
             batchWrite.ExecuteAsync();
