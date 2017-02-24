@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StockMood.TwitterGrabber", "StockMood.TwitterGrabber\StockMood.TwitterGrabber.xproj", "{725E9D7C-98B7-40D6-86B5-A64A84817AED}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StockMood.SentimentAnalyzer", "StockMood.SentimentAnalyzer\StockMood.SentimentAnalyzer\StockMood.SentimentAnalyzer.xproj", "{DA1FE18F-4711-455A-8A0E-E010B6EDEA48}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StockMood.SentimentAnalyzer.Tests", "StockMood.SentimentAnalyzer\StockMood.SentimentAnalyzer.Tests\StockMood.SentimentAnalyzer.Tests.xproj", "{CFF84F51-E0C3-4E46-B1A9-E3E474F3CE44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{725E9D7C-98B7-40D6-86B5-A64A84817AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{725E9D7C-98B7-40D6-86B5-A64A84817AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{725E9D7C-98B7-40D6-86B5-A64A84817AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1FE18F-4711-455A-8A0E-E010B6EDEA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1FE18F-4711-455A-8A0E-E010B6EDEA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1FE18F-4711-455A-8A0E-E010B6EDEA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1FE18F-4711-455A-8A0E-E010B6EDEA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF84F51-E0C3-4E46-B1A9-E3E474F3CE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF84F51-E0C3-4E46-B1A9-E3E474F3CE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF84F51-E0C3-4E46-B1A9-E3E474F3CE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF84F51-E0C3-4E46-B1A9-E3E474F3CE44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
