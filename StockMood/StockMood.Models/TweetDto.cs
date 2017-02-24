@@ -14,6 +14,8 @@ namespace StockMood.Models
         public int NumberOfLikes { get; set; }
         public DateTime DateCreated { get; set; }
         public string Permalink { get; set; }
+        public float Score { get; set; }
+        public float Magnitude { get; set; }
 
         public override string ToString()
         {
