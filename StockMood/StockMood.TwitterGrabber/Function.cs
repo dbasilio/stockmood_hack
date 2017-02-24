@@ -25,6 +25,7 @@ namespace StockMood.TwitterGrabber
         /// <returns></returns>
         public void FunctionHandler(ILambdaContext context)
         {
+            TweetinviConfig.CurrentThreadSettings.TweetMode = TweetMode.Extended;
             ITwitterCredentials creds = new TwitterCredentials("LeWMQwaGHAvkiGDzOaCwWnqDg",
                 "O9huoRD17SbQlkHDaTtvOsJ2g3qoMXr9n9qaLKNKGesVp2FnOZ",
                 "835155580037775360-k78JNWd4QiH3JVAqgpzzEBFgNYsYfp8", "PMRySX5hG2eTzilbK9ZIrVWQjs8fVZzfqvkD8A1rc7emP");
@@ -61,7 +62,7 @@ namespace StockMood.TwitterGrabber
                     tweetDtoList.Add(new TweetDto
                     {
                         TweetId = tweet.IdStr,
-                        Text = tweet.FullText,
+                        Text = tweet.Text,
                         NumberOfRetweets = tweet.RetweetCount,
                         NumberOfLikes = tweet.FavoriteCount,
                         DateCreated = tweet.CreatedAt,
