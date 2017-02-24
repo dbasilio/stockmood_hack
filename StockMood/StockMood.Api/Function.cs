@@ -83,8 +83,8 @@ namespace StockMood.Api
             };
 
             response.Headers["Access-Control-Allow-Origin"] = "*";
-
-            response.Body = "{publicSentiment : " + positive + "}";
+            response.Body = "{publicSentiment : " + (float)positive / (float)count * (float)100 + "}";
+            response.StatusCode = (int) HttpStatusCode.OK;
 
             return response;
         }
