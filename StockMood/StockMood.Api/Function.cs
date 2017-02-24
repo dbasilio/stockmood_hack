@@ -117,5 +117,46 @@ namespace StockMood.Api
             response.Body = JsonConvert.SerializeObject(tweet);
             return response;
         }
+
+        public APIGatewayProxyResponse GetMostPopularWords()
+        {
+            var dynamoDbClient =
+                new AmazonDynamoDBClient(new BasicAWSCredentials("AKIAITP2P5WZV5HT4UYA",
+                    "xa3m+F2i9QsHckUkDz+o60RpFO71PAtRWvH+8+eK"));
+            var dbContext = new DynamoDBContext(dynamoDbClient);
+
+            var response = new APIGatewayProxyResponse
+            {
+                Headers = new Dictionary<string, string>()
+            };
+
+            response.Headers["Access-Control-Allow-Origin"] = "*";
+
+            var tweets = dbContext.ScanAsync<TweetDto>(new ScanCondition[] { }).GetRemainingAsync().Result;
+            dbContext.Dispose();
+
+            tweets = tweets.OrderByDescending(x => Math.Abs(x.PopularityScore)).Take(100).ToList();
+            var wordCounter = new Dictionary<string, int>();
+            foreach (var tweet in tweets)
+            {
+                var words = tweet.Text.Split(" ".ToCharArray());
+                foreach (var word in words)
+                {
+                    if (!string.IsNullOrWhiteSpace(word))
+                    {
+                        var lowerWord = word.ToLower();
+                        if (wordCounter.ContainsKey(lowerWord))
+                            wordCounter[lowerWord] = wordCounter[lowerWord] + 1;
+                        else
+                            wordCounter[lowerWord] = 1;
+                    }
+                }
+            }
+
+            var mostPopular = wordCounter.OrderByDescending(x => x.Value).Take(10);
+            response.StatusCode = (int)HttpStatusCode.OK;
+            response.Body = JsonConvert.SerializeObject(mostPopular);
+            return response;
+        }
     }
 }

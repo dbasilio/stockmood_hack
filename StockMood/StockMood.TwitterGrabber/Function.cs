@@ -58,8 +58,8 @@ namespace StockMood.TwitterGrabber
                         .Where(
                             x =>
                                 !x.IsRetweet && x.Language == Language.English && !existingTweetIds.Contains(x.IdStr) &&
-                                x.TweetDTO.CreatedBy.FollowersCount > 500)
-                        .Take(10000);
+                                x.TweetDTO.CreatedBy.FollowersCount > 200)
+                        .Take(100000);
                 foreach (var tweet in tweets)
                 {
                     tweetDtoList.Add(new TweetDto
