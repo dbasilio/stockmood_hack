@@ -18,7 +18,8 @@
     "AWSSDK.CloudWatch": "3.3.1.4",
     "StockMood.Models": "1.0.0-*",
     "MongoDB.Driver": "2.4.2",
-    "AWSSDK.DynamoDBv2": "3.3.2.1"
+    "AWSSDK.DynamoDBv2": "3.3.2.1",
+    "Google.Apis.CloudNaturalLanguage.v1": "1.21.0.767"
   },
 
   "tools": {
