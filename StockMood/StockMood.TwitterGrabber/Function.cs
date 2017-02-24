@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DataModel;
@@ -6,6 +7,7 @@ using Amazon.Runtime;
 using StockMood.Models;
 using Tweetinvi;
 using Tweetinvi.Models;
+using Tweetinvi.Parameters;
 using Search = Tweetinvi.Search;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
@@ -33,16 +35,19 @@ namespace StockMood.TwitterGrabber
                     "xa3m+F2i9QsHckUkDz+o60RpFO71PAtRWvH+8+eK"));
             var dbContext = new DynamoDBContext(dynamoDbClient);
 
-            var tweets = Search.SearchTweets("MSFT").Take(10);
+            var tweetDtoList = new List<TweetDto>();
 
-            foreach (var tweet in tweets)
+            var searchKeywords = dbContext.ScanAsync<SearchKeywordsDto>(new ScanCondition[] {});
+            foreach (var keyword in searchKeywords.GetNextSetAsync().Result)
             {
-                var tweetDto = new TweetDto
+                var tweets = Search.SearchTweets(keyword.Keyword).Where(x => !x.IsRetweet).Take(1000);
+                tweetDtoList.AddRange(tweets.Select(tweet => new TweetDto
                 {
                     Text = tweet.FullText,
                     NumberOfRetweets = tweet.RetweetCount,
                     NumberOfLikes = tweet.FavoriteCount,
                     DateCreated = tweet.CreatedAt,
+                    Permalink = tweet.Url,
                     User = new UserDto
                     {
                         ScreenName = tweet.TweetDTO.CreatedBy.ScreenName,
@@ -50,10 +55,12 @@ namespace StockMood.TwitterGrabber
                         UserName = tweet.TweetDTO.CreatedBy.Name,
                         NumberOfFollowers = tweet.TweetDTO.CreatedBy.FollowersCount
                     }
-                };
-                dbContext.SaveAsync(tweetDto);
-                context.Logger.LogLine(tweetDto.ToString());
+                }));
             }
+
+            var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
+            batchWrite.AddPutItems(tweetDtoList);
+            batchWrite.ExecuteAsync();
             context.Logger.LogLine("finished running");
         }
     }
