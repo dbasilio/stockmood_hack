@@ -60,6 +60,7 @@ namespace StockMood.TwitterGrabber
                                 !x.IsRetweet && x.Language == Language.English && !existingTweetIds.Contains(x.IdStr) &&
                                 x.TweetDTO.CreatedBy.FollowersCount > 200)
                         .Take(100000);
+                context.Logger.LogLine(JsonConvert.SerializeObject(tweets));
                 foreach (var tweet in tweets)
                 {
                     tweetDtoList.Add(new TweetDto
