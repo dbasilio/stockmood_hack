@@ -22,9 +22,25 @@ namespace StockMood.Api
                     "xa3m+F2i9QsHckUkDz+o60RpFO71PAtRWvH+8+eK"));
             var dbContext = new DynamoDBContext(dynamoDbClient);
 
+            int sortOrder;
+            if (!int.TryParse(input.QueryStringParameters["sortOrder"], out sortOrder))
+                sortOrder = 0;
 
+            int limit;
+            if (!int.TryParse(input.QueryStringParameters["limit"], out limit))
+                limit = 0;
 
-            return null;
+            var tweets = dbContext.ScanAsync<TweetDto>(new ScanCondition[] { }).GetRemainingAsync().Result;
+            if (tweets.Count < 1)
+                return new TweetDto[] {};
+
+            if (sortOrder > 0)
+                tweets = tweets.OrderByDescending(x => x.PopularityScore).ToList();
+            else if (sortOrder < 0)
+                tweets = tweets.OrderBy(x => x.PopularityScore).ToList();
+            tweets = limit > 0 ? tweets.Take(limit).ToList() : tweets.Take(100).ToList();
+
+            return tweets;
         }
 
         public int GetPublicSentiment()

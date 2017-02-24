@@ -13,8 +13,8 @@
     "function-runtime" : "dotnetcore1.0",
     "function-memory-size" : 256,
     "function-timeout"     : 30,
-    "function-handler"     : "StockMood.Api::StockMood.Api.Function::GetMostTrending",
-    "function-name"        : "StockMood_GetMostTrending",
-    "function-role"        : "arn:aws:iam::632976446797:role/lambda_exec_StockMood_GetMostTrending",
+    "function-handler"     : "StockMood.Api::StockMood.Api.Function::GetTweets",
+    "function-name"        : "StockMood_GetTweets",
+    "function-role"        : "arn:aws:iam::632976446797:role/lambda_exec_StockMood_GetTweets",
     "environment-variables" : ""
 }
