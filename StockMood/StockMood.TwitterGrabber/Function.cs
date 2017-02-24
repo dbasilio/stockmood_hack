@@ -1,13 +1,12 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-
+using Amazon.DynamoDBv2;
+using Amazon.DynamoDBv2.DataModel;
 using Amazon.Lambda.Core;
-using Amazon.Lambda.Serialization;
+using Amazon.Runtime;
 using StockMood.Models;
 using Tweetinvi;
 using Tweetinvi.Models;
+using Search = Tweetinvi.Search;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializerAttribute(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
@@ -29,9 +28,13 @@ namespace StockMood.TwitterGrabber
                 "835155580037775360-k78JNWd4QiH3JVAqgpzzEBFgNYsYfp8", "PMRySX5hG2eTzilbK9ZIrVWQjs8fVZzfqvkD8A1rc7emP");
             Auth.SetCredentials(creds);
 
+            var dynamoDbClient =
+                new AmazonDynamoDBClient(new BasicAWSCredentials("AKIAITP2P5WZV5HT4UYA",
+                    "xa3m+F2i9QsHckUkDz+o60RpFO71PAtRWvH+8+eK"));
+            var dbContext = new DynamoDBContext(dynamoDbClient);
+
             var tweets = Search.SearchTweets("MSFT").Take(10);
 
-            var tweetDtoList = new List<TweetDto>();
             foreach (var tweet in tweets)
             {
                 var tweetDto = new TweetDto
@@ -48,7 +51,7 @@ namespace StockMood.TwitterGrabber
                         NumberOfFollowers = tweet.TweetDTO.CreatedBy.FollowersCount
                     }
                 };
-                tweetDtoList.Add(tweetDto);
+                dbContext.SaveAsync(tweetDto);
                 context.Logger.LogLine(tweetDto.ToString());
             }
             context.Logger.LogLine("finished running");
