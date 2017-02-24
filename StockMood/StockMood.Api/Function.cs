@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DataModel;
 using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.Core;
-using Amazon.Lambda.Serialization;
 using Amazon.Runtime;
 using StockMood.Models;
 
@@ -23,6 +21,9 @@ namespace StockMood.Api
                 new AmazonDynamoDBClient(new BasicAWSCredentials("AKIAITP2P5WZV5HT4UYA",
                     "xa3m+F2i9QsHckUkDz+o60RpFO71PAtRWvH+8+eK"));
             var dbContext = new DynamoDBContext(dynamoDbClient);
+
+
+
             return null;
         }
 
@@ -51,8 +52,10 @@ namespace StockMood.Api
                     "xa3m+F2i9QsHckUkDz+o60RpFO71PAtRWvH+8+eK"));
             var dbContext = new DynamoDBContext(dynamoDbClient);
 
+            var tweets = dbContext.ScanAsync<TweetDto>(new ScanCondition[] { }).GetRemainingAsync().Result;
+            dbContext.Dispose();
 
-            return null;
+            return tweets.OrderByDescending(x => Math.Abs(x.PopularityScore)).FirstOrDefault();
         }
     }
 }
