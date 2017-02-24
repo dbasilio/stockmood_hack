@@ -80,7 +80,7 @@ namespace StockMood.TwitterGrabber
                         }
                     });
                     googleString +=
-                        $"|||| {tweet.IdStr} {new string(tweet.FullText.Where(c => !char.IsPunctuation(c)).ToArray())}";
+                        $"|||| {tweet.IdStr} {new string(tweet.Text.Where(c => !char.IsPunctuation(c)).ToArray())}";
                 }
             }
 
@@ -101,22 +101,24 @@ namespace StockMood.TwitterGrabber
                 new StringContent(JsonConvert.SerializeObject(sentimentReq))).Result;
 
             var sentimentText = result.Content.ReadAsStringAsync().Result;
-            context.Logger.LogLine(sentimentText);
 
             var sentimentResponse = JsonConvert.DeserializeObject<AnalyzeSentimentResponse>(sentimentText);
             var tweetIdRegex = new Regex(@"\s*[0-9]+");
 
             foreach (var sentence in sentimentResponse.Sentences)
             {
+                context.Logger.LogLine($"{sentence.Text.Content}");
                 var tweetId = tweetIdRegex.Match(sentence.Text.Content).Value;
 
-                context.Logger.LogLine($"Parsed tweetId: {tweetId}");
+                var tweet = tweetDtoList.Find(t => t.TweetId == tweetId);
+                tweet.Score = sentence.Sentiment.Score ?? 0;
+                tweet.Magnitude = sentence.Sentiment.Magnitude ?? 0;
             }
-            
-            //var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
-            //batchWrite.AddPutItems(tweetDtoList);
-            //batchWrite.ExecuteAsync();
-            //context.Logger.LogLine("finished running");
+
+            var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
+            batchWrite.AddPutItems(tweetDtoList);
+            batchWrite.ExecuteAsync();
+            context.Logger.LogLine("finished running");
         }
     }
 }
