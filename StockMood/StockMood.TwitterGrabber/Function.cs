@@ -36,13 +36,27 @@ namespace StockMood.TwitterGrabber
             var dbContext = new DynamoDBContext(dynamoDbClient);
 
             var tweetDtoList = new List<TweetDto>();
+            var existingTweetIds = new HashSet<string>();
+
+            var tweetIdQuery = dbContext.ScanAsync<TweetDto>(new ScanCondition[] {});
+            foreach (var existingTweet in tweetIdQuery.GetRemainingAsync().Result)
+            {
+                existingTweetIds.Add(existingTweet.TweetId);
+            }
 
             var searchKeywords = dbContext.ScanAsync<SearchKeywordsDto>(new ScanCondition[] {});
-            foreach (var keyword in searchKeywords.GetNextSetAsync().Result)
+            foreach (var keyword in searchKeywords.GetRemainingAsync().Result)
             {
-                var tweets = Search.SearchTweets(keyword.Keyword).Where(x => !x.IsRetweet).Take(1000);
+                var tweets =
+                    Search.SearchTweets(keyword.Keyword)
+                        .Where(
+                            x =>
+                                !x.IsRetweet && x.Language == Language.English && !existingTweetIds.Contains(x.IdStr) &&
+                                x.TweetDTO.CreatedBy.FollowersCount > 500)
+                        .Take(1000);
                 tweetDtoList.AddRange(tweets.Select(tweet => new TweetDto
                 {
+                    TweetId = tweet.IdStr,
                     Text = tweet.FullText,
                     NumberOfRetweets = tweet.RetweetCount,
                     NumberOfLikes = tweet.FavoriteCount,
