@@ -13,6 +13,7 @@ namespace StockMood.Models
         public int NumberOfRetweets { get; set; }
         public int NumberOfLikes { get; set; }
         public DateTime DateCreated { get; set; }
+        public string Permalink { get; set; }
 
         public TweetDto()
         {
