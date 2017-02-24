@@ -16,7 +16,9 @@
     },
     "TweetinviAPI": "1.2.0.1",
     "AWSSDK.CloudWatch": "3.3.1.4",
-    "StockMood.Models": "1.0.0-*"
+    "StockMood.Models": "1.0.0-*",
+    "MongoDB.Driver": "2.4.2",
+    "AWSSDK.DynamoDBv2": "3.3.2.1"
   },
 
   "tools": {
