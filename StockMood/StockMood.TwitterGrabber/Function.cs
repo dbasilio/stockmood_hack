@@ -1,9 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text.RegularExpressions;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DataModel;
 using Amazon.Lambda.Core;
 using Amazon.Runtime;
+using Google.Apis.CloudNaturalLanguage.v1.Data;
+using Newtonsoft.Json;
 using StockMood.Models;
 using Tweetinvi;
 using Tweetinvi.Models;
@@ -79,11 +83,37 @@ namespace StockMood.TwitterGrabber
                 }
             }
 
+            var sentimentReq = new AnalyzeSentimentRequest()
+            {
+                EncodingType = "UTF8",
+                Document = new Document()
+                {
+                    Content = googleString,
+                    Language = "EN",
+                    Type = "PLAIN_TEXT"
+                }
+            };
+
+            HttpClient httpClient = new HttpClient();
+            var result = httpClient.PostAsync(
+                "https://language.googleapis.com/v1/documents:annotateSentiment?key=AIzaSyC_EPvfIPDKisUT4v5L70UXOMrEhJduTu4",
+                new StringContent(JsonConvert.SerializeObject(sentimentReq))).Result;
+
+            var sentimentText = result.Content.ReadAsStringAsync().Result;
+            var sentimentResponse = JsonConvert.DeserializeObject<AnalyzeSentimentResponse>(sentimentText);
+            var tweetIdRegex = new Regex(@"\s*[0-9]+");
+
+            foreach (var sentence in sentimentResponse.Sentences)
+            {
+                var tweetId = tweetIdRegex.Match(sentence.Text.Content).Value;
+
+                context.Logger.LogLine($"Parsed tweetId: {tweetId}");
+            }
             
-            var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
-            batchWrite.AddPutItems(tweetDtoList);
-            batchWrite.ExecuteAsync();
-            context.Logger.LogLine("finished running");
+            //var batchWrite = dbContext.CreateBatchWrite<TweetDto>();
+            //batchWrite.AddPutItems(tweetDtoList);
+            //batchWrite.ExecuteAsync();
+            //context.Logger.LogLine("finished running");
         }
     }
 }
