@@ -37,10 +37,16 @@ namespace StockMood.Api
             var limit = 0;
             if (input.QueryStringParameters != null)
             {
-                if (!int.TryParse(input.QueryStringParameters["sortOrder"], out sortOrder))
-                    sortOrder = 0;
-                if (!int.TryParse(input.QueryStringParameters["limit"], out limit))
-                    limit = 0;
+                if (input.QueryStringParameters.ContainsKey("sortOrder"))
+                {
+                    if (!int.TryParse(input.QueryStringParameters["sortOrder"], out sortOrder))
+                        sortOrder = 0;
+                }
+                if (input.QueryStringParameters.ContainsKey("limit"))
+                {
+                    if (!int.TryParse(input.QueryStringParameters["limit"], out limit))
+                        limit = 0;
+                }
             }
 
             var tweets = dbContext.ScanAsync<TweetDto>(new ScanCondition[] { }).GetRemainingAsync().Result;
