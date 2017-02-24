@@ -17,7 +17,8 @@
     "AWSSDK.APIGateway": "3.3.4.1",
     "AWSSDK.Lambda": "3.3.2.6",
     "Amazon.Lambda.APIGatewayEvents": "1.0.2",
-    "StockMood.Models": "1.0.0-*"
+    "StockMood.Models": "1.0.0-*",
+    "Newtonsoft.Json": "9.0.1"
   },
 
   "tools": {
