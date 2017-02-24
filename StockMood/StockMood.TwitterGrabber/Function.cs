@@ -84,10 +84,10 @@ namespace StockMood.TwitterGrabber
                 }
             }
 
-            var sentimentReq = new AnalyzeSentimentRequest()
+            var sentimentReq = new SentimentRequest()
             {
                 EncodingType = "UTF8",
-                Document = new Document()
+                Document = new SentimentDocument()
                 {
                     Content = googleString,
                     Language = "EN",
@@ -97,10 +97,12 @@ namespace StockMood.TwitterGrabber
 
             HttpClient httpClient = new HttpClient();
             var result = httpClient.PostAsync(
-                "https://language.googleapis.com/v1/documents:annotateSentiment?key=AIzaSyC_EPvfIPDKisUT4v5L70UXOMrEhJduTu4",
+                "https://language.googleapis.com/v1/documents:analyzeSentiment?key=AIzaSyC_EPvfIPDKisUT4v5L70UXOMrEhJduTu4",
                 new StringContent(JsonConvert.SerializeObject(sentimentReq))).Result;
 
             var sentimentText = result.Content.ReadAsStringAsync().Result;
+            context.Logger.LogLine(sentimentText);
+
             var sentimentResponse = JsonConvert.DeserializeObject<AnalyzeSentimentResponse>(sentimentText);
             var tweetIdRegex = new Regex(@"\s*[0-9]+");
 
